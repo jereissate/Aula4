@@ -1,0 +1,46 @@
+html, body, ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    background-color: blueviolet;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /*arredondar as bordas*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+a:hover{
+    background-color: rgb(91, 30, 148);
+}
+
+nav{
+    background-color: chartreuse;
+    height: 72px;
+}
+
+h1{
+    float: left;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 16px 60px;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+}
+
